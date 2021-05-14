@@ -60,7 +60,8 @@ Node.js revolucionou a forma de programar em Javascript, pois a linguagem evolui
 
 ### 5. Primeiros passos com Javascript
 
-* Hello World no terminal, executando um arquivo .js com node
+* Hello World no terminal do vs code
+* 2 formas de rodar um arquivo .js com node (direto no terminal ou run em um arquivo)
 
 ### 6. Lógica aplicada
 
@@ -413,20 +414,46 @@ Atenção para as palavras reservadas case, break e default.
 
 #### 6.5 **Exemplos:**
 
-
 | Exemplo 01 | Descrição |
 | --- | --- |
-| `Semaforo, sinal ou sinaleira?` | Utilizando os conceitos que estudamos, vamos criar um programa que funcionará como um sinal de transito. |
+| `Variaveis` | Vamos criar variaveis usando let, const e var, atribuir valores, identificar comportamentos e saídas quando tentarmos recuperar. |
 
 | Exemplo 02 | Descrição |
 | --- | --- |
-| `FizzBuzz` | Utilizando os conceitos que estudamos, vamos criar um programa que irá imprimir 'FizzBuzz'para números divisiveis por 3 e 5, para números divisíveis por 3 irá impirmir 'Fizz' e para números divisíveis por 5 irá imprimir 'Buzz' . |
+| `Concatenar x interpolar` | Vamos criar variaveis usando let, const e var, atribuir strings e vamos concatenar e interpolar. |
 
 | Exemplo 03 | Descrição |
 | --- | --- |
+| `Média entre números` | Crie uma variavel e atribua como valor uma operacao de média entre 5 números inteiros e positivos. |
+
+| Exemplo 04 | Descrição |
+| --- | --- |
+| `Quero lucrar` | Crie um programa que me diga como lucrar nesta situação: quero vender uma bicicleta que 60% do seu valor é R$300, por quanto devo vendê-la para lucrar 25%? |
+
+| Exemplo 05 | Descrição |
+| --- | --- |
+| `Quero somar` | Faça um programa que peça dois números e imprima no console a soma desses dois números.|
+
+| Exemplo 06 | Descrição |
+| --- | --- |
+| `Desapegada` | Crie um programa que me diga quanto cobrar para vender um notebook usado: o seu custo foi R$3000, por quanto devo vendê-lo descontando 25%? |
+
+| Exemplo 07 | Descrição |
+| --- | --- |
+| `conversor de medidas` | Escreva um programa que receba um valor em metros e o exiba no console convertido em milímetros. |
+
+| Exemplo 08 | Descrição |
+| --- | --- |
+| `Semaforo, sinal ou sinaleira?` | Utilizando os conceitos que estudamos, vamos criar um programa que funcionará como um sinal de transito. |
+
+| Exemplo 09 | Descrição |
+| --- | --- |
+| `FizzBuzz` | Utilizando os conceitos que estudamos, vamos criar um programa que irá imprimir 'FizzBuzz'para números divisiveis por 3 e 5, para números divisíveis por 3 irá impirmir 'Fizz' e para números divisíveis por 5 irá imprimir 'Buzz' e por fim, se não cumprir nenhum dos casos acima imprime o próprio número. |
+
+| Exemplo 10 | Descrição |
+| --- | --- |
 | `É dia de aula?` | Utilizando os conceitos que estudamos, vamos criar um programa que irá nos informar os dias de aula para a nossa turma. |
 
-**Vou incluir mais exemplos para sala de aula aqui**
 <br>
 
 
@@ -435,16 +462,39 @@ Atenção para as palavras reservadas case, break e default.
 
 #### Calma! É só uma TAREFINHA DE CASA pra chamar de sua! Já treinamos bastante com nossos exemplos na aula!
 
-Vamos resolver as questões abaixo: 
+Resolva as questões abaixo: 
 
 > Passo a passo:
-1) Crie uma pasta que irá conter um arquivo .js para cada questão e apenas um README.md
+1) Crie uma pasta que irá conter um arquivo  com extensão .js para cada questão abaixo de apenas um README.md
+```
+    1 - Solicite o preço de uma mercadoria e o percentual de desconto. Exiba no console o valor do desconto e o preço a pagar.
 
-**Vou incluir as questoes aqui nos passos 2 ao 6**
+    2 - Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
 
-7) Suba esse projeto no github, atualize o read me contando tudo o que você aprendeu e usou. Iremos disponibilizar uma planilha para a entrega dos links dos repos. A entrega pode ser feita até sexta.
-8) Tente fazer antes da aula de revisao e plantao de monitoria, pois você consegue aproveitar melhor pra tirar dúvidas.
-9) Arraseee! E qualquer coisa, me chama!
+    3 - Crie um algoritmo que leia o valor de um jantar, calcule e informe o valor da taxa do garçom (10%) e o valor total a ser pago.
+
+    4 - Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa 60,00 reais por dia e 0,15 centavos por km rodado.
+
+    5 - Receba do usuários 3 números e calcule a média entre eles.
+
+    6 - Elabore um algoritmo que receba um número (1-7) e devolva o dia da semana correspondente.
+
+    7 - Elabore um algoritmo que receba dois números e determine qual é o maior entre eles, se os números forem iguais, mostre uma mensagem no console "Os números são iguais".
+
+    8 - Crie um algoritmo que receba três notas de um aluno, calcule sua média e mostre as seguintes mensagens de acordo com cada situação:
+
+        - Se a media for igual ou maior que 7 - Aprovado
+        - Se a media for maior e igual a cinco e menor que 7 - Recuperação
+        - Se a media for menor que 5 - Reprovado
+
+    9 - Crie uma função que retorna a palavra (impar/par) de acordo com seu parâmetro.
+
+    10 - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+```
+
+2) Suba esse projeto no github, atualize o read me contando tudo o que você aprendeu e usou. Iremos disponibilizar uma planilha para a entrega dos links dos repos. A entrega pode ser feita até sexta.
+3) Tente fazer antes da aula de revisao e plantao de monitoria, pois você consegue aproveitar melhor pra tirar dúvidas.
+4) Arraseee! E qualquer coisa, me chama!
 
 ## Simara Conceição
 - [instagram](https://www.instagram.com/simara_conceicao)
