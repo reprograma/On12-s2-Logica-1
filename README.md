@@ -191,11 +191,11 @@ O operador typeof pode te ajudar a encontrar o tipo de sua variavel.
 ```
 typeof 32 //Number
 var age = 32 
-console.log(age) //Number
+console.log(typeof age) //Number
 
 typeof "Simara" //string
 var myName = "Simara" 
-console.log(myName) //String
+console.log(typeof myName) //String
 
 let lastName
 console.log(typeof lastName) //undefined
@@ -394,7 +394,7 @@ if (number ===1) {
 
 ```
 let mes = 'setembro'
-if (mes === 'fevereiro) {
+if (mes === 'fevereiro') {
     console.log('tem carnaval')
 } else if (mes === 'junho'){
     console.log('tem são joão')
@@ -433,11 +433,11 @@ Atenção para as palavras reservadas case, break e default.
 
 | Exemplo 01 | Descrição |
 | --- | --- |
-| `Variaveis` | Vamos criar variaveis usando let, const e var, atribuir valores, identificar comportamentos e saídas quando tentarmos recuperar. |
+| `Variaveis` | Vamos criar variaveis usando let e const, atribuir valores, identificar comportamentos e saídas quando tentarmos recuperar. |
 
 | Exemplo 02 | Descrição |
 | --- | --- |
-| `Concatenar x interpolar` | Vamos criar variaveis usando let, const e var, atribuir strings e vamos concatenar e interpolar. |
+| `Concatenar x interpolar` | Vamos criar variaveis usando let, const, atribuir strings e vamos concatenar e interpolar. |
 
 | Exemplo 03 | Descrição |
 | --- | --- |
@@ -484,7 +484,7 @@ Resolva as questões abaixo:
 > Passo a passo:
 1) Crie uma pasta que irá conter um arquivo  com extensão .js para cada questão abaixo de apenas um README.md
 ```
-    1 - Solicite o preço de uma mercadoria e o percentual de desconto. Exiba no console o valor do desconto e o preço a pagar.
+    1 - Solicite o preço de uma mercadoria e o percentual de desconto 20%. Exiba no console o valor do desconto e o preço a pagar.
 
     2 - Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
 
@@ -504,9 +504,9 @@ Resolva as questões abaixo:
         - Se a media for maior e igual a cinco e menor que 7 - Recuperação
         - Se a media for menor que 5 - Reprovado
 
-    9 - Crie uma função que retorna a palavra (impar/par) de acordo com seu parâmetro.
+    9 - Crie uma variavel que retorna a palavra (impar/par) de acordo com seu parâmetro.
 
-    10 - Crie uma função que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
+    10 - Crie uma variavel que recebe o ano de nascimento da pessoa informando se ela é maior de idade ou menor.
 ```
 
 2) Suba esse projeto no github, atualize o read me contando tudo o que você aprendeu e usou. Iremos disponibilizar uma planilha para a entrega dos links dos repos. A entrega pode ser feita até sexta.
